@@ -10,10 +10,14 @@ def populate(frame, search_box, wd):
     db = TinyDB('./resources/db.json')
 
     modifyButton = tk.Button(frame, text="Modify", command = Modify)
-    modifyButton.grid(row = 0, column = 0, padx=(50,10),pady=10)
+    modifyButton.grid(row = 0, column = 0, padx=(150,10),pady=10)
+    modifyButton.configure(font=("Times New Roman", 12, "bold"))
+
 
     deleteButton = tk.Button(frame, text="Delete", command = Delete)
     deleteButton.grid(row = 0, column = 1, padx=10,pady=10)
+    deleteButton.configure(font=("Times New Roman", 12, "bold"))
+
 
     inputValue=search_box.get("1.0","end-1c")
 
@@ -41,7 +45,7 @@ def onFrameConfigure(canvas):
 def search(search_box, wd):
     editor = tk.Tk()
     editor.title('SearchTrails')
-    editor.geometry("500x400")
+    editor.geometry("800x760")
     
     canvas = tk.Canvas(editor, borderwidth=0,) #background="#ffffff")
     frame = tk.Frame(canvas,)# background="#ffffff")

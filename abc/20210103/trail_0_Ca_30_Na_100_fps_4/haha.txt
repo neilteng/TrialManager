@@ -1,0 +1,6 @@
+{
+"kaka":100,
+"baba": 50,
+"dada":"foo",
+"fafa": "bar"
+}
