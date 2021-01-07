@@ -2,8 +2,10 @@
 Make Experiments Management EASY!
 
 # Prerequisite
-Python>=3.8
-TinyDB
+Python>=3.8,
+
+TinyDB,
+
 Tkinter
 
 # Usage
