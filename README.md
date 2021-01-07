@@ -21,7 +21,7 @@ e.g.
 
 ## Create a new Trial
 
-Double Quote is necessary for key, single quote for string value.
+Double Quote is necessary for key, Single Quote for string value.
 
 `
 {
