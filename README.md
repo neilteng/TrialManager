@@ -23,10 +23,10 @@ e.g.
 
 Double Quote is necessary for key, single quote for string value.
 
-'''JSON
+`
 {
 "Ca": 30,
 "Na": 10,
 "Enzyme": 'Ca'
 }
-'''
+`
