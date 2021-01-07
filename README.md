@@ -26,9 +26,7 @@ Double Quote is necessary for key, single quote for string value.
 `
 {
 "Ca": 30,
-
 "Na": 10,
-
 "Enzyme": 'Ca'
 }
 `
