@@ -1,5 +1,5 @@
 # TrialManager
-Make Experiments Management EASY!
+**Make Experiments Management EASY!**
 
 # Prerequisite
 Python>=3.8,
